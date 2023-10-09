@@ -26,3 +26,7 @@ export interface IMailForm {
   subject: string;
   message: string;
 }
+
+export interface IAnimatedNumbers {
+  className: string;
+}
