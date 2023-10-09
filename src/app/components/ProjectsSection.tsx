@@ -12,7 +12,7 @@ export const projectsData = [
     image:
       "https://user-images.githubusercontent.com/91298955/161949228-255993f9-d15b-4a64-8d14-901df8aee29e.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/kdn0325/KT-alpha",
     previewUrl:
       "https://continuous-headstand-70c.notion.site/KT-Alpha-772d7c83261d4ceba6324cc72d1545b7?pvs=4",
   },
@@ -23,7 +23,7 @@ export const projectsData = [
     image:
       "https://user-images.githubusercontent.com/91298955/161952039-fd7d008c-88af-4b40-bb07-318c547e7f76.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/kdn0325/SuwonPublicHealth",
     previewUrl:
       "https://continuous-headstand-70c.notion.site/f6ac2818cf704529b8da916cb9306d1e?pvs=4",
   },
@@ -34,7 +34,7 @@ export const projectsData = [
     image:
       "https://user-images.githubusercontent.com/91298955/161951698-20ada237-70d6-4d49-87f8-937343ee3547.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/kdn0325/StarbucksKR",
     previewUrl:
       "https://continuous-headstand-70c.notion.site/Starbucks-aae3519962234331afa9f609253518bd?pvs=4",
   },
@@ -45,7 +45,7 @@ export const projectsData = [
     image:
       "https://user-images.githubusercontent.com/91298955/161950401-93b3f7a8-cdb5-40db-ab45-a54689ebc213.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/kdn0325/covid19-app",
     previewUrl:
       "https://continuous-headstand-70c.notion.site/ff7ca65f79e84c9db2628f4e15059b20?pvs=4",
   },
@@ -56,7 +56,7 @@ export const projectsData = [
     image:
       "https://github.com/kdn0325/kdn0325.github.io/assets/91298955/bbd00242-4c6a-44b2-b30a-42a46f4ab23c",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/kdn0325/redux-TodoList",
     previewUrl:
       "https://continuous-headstand-70c.notion.site/Todo-List-88024151c3594615b10582f05f764166?pvs=4",
   },
@@ -67,7 +67,7 @@ export const projectsData = [
     image:
       "https://user-images.githubusercontent.com/91298955/161952365-5ed9f953-dea1-433e-8a65-ef3ac3024c1e.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/kdn0325/watching-app",
     previewUrl:
       "https://continuous-headstand-70c.notion.site/Watching-8d3be5a406994ec3be4f630850a13577?pvs=4",
   },
@@ -78,9 +78,9 @@ export const projectsData = [
     image:
       "https://github.com/kdn0325/kdn0325.github.io/assets/91298955/13c71500-56d2-4325-bf3e-5da88ea17478",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/kdn0325/ecommerce-app",
     previewUrl:
-      "https://github.com/kdn0325/kdn0325.github.io/assets/91298955/13c71500-56d2-4325-bf3e-5da88ea17478",
+      "https://continuous-headstand-70c.notion.site/Ecommerce-App-4068dba31eb541a6b54f3b51c9d1b2b8?pvs=4",
   },
   {
     id: 8,
@@ -89,7 +89,7 @@ export const projectsData = [
     image:
       "https://github.com/kdn0325/kdn0325.github.io/assets/91298955/77eb81a6-3717-4dc9-b14f-d4ba83480a56",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/kdn0325/chatBot",
     previewUrl:
       "https://continuous-headstand-70c.notion.site/ChatBot-a2c3f4a1c8404f0e8d6243ebe7e85ce1?pvs=4",
   },
