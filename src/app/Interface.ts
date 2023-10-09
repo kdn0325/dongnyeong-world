@@ -21,3 +21,8 @@ export interface ITabButton {
   selectTab: () => void;
   children: ReactNode;
 }
+export interface IMailForm {
+  email: string;
+  subject: string;
+  message: string;
+}
