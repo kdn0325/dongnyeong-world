@@ -63,7 +63,7 @@ export const projectsData = [
   {
     id: 6,
     title: "Watching",
-    description: "OPEN API를 활용한 영화 정보 서비스",
+    description: "Open API를 활용한 영화 정보 서비스",
     image:
       "https://user-images.githubusercontent.com/91298955/161952365-5ed9f953-dea1-433e-8a65-ef3ac3024c1e.png",
     tag: ["All", "Web"],
