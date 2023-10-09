@@ -15,8 +15,6 @@ const EmailSection = () => {
 
   const form = useRef<HTMLFormElement>(null);
 
-  console.log("serverKey?", serverKey);
-
   const [formData, setFormData] = useState<IMailForm>({
     email: "",
     subject: "",
