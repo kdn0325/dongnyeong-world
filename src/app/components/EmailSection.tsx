@@ -132,7 +132,7 @@ const EmailSection = () => {
               onChange={handleInputChange}
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="이메일을 입력해주세요"
+              placeholder="이메일을 입력해주세요."
             />
           </div>
           <div className="mb-6">
