@@ -88,7 +88,7 @@ export const projectsData = [
     description: "Open AI를 이용한 Chatbot",
     image:
       "https://github.com/kdn0325/kdn0325.github.io/assets/91298955/77eb81a6-3717-4dc9-b14f-d4ba83480a56",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl:
       "https://continuous-headstand-70c.notion.site/ChatBot-a2c3f4a1c8404f0e8d6243ebe7e85ce1?pvs=4",
