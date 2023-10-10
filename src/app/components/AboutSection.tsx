@@ -196,17 +196,6 @@ const TAB_DATA: Tab[] = [
       </ul>
     ),
   },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>반응형/웹퍼블리셔/프론트엔드 웹개발자 (2021.07 ~ 2021.11)</li>
-        <li>Vanila Script (2021.12 ~ 2022.03)</li>
-        <li>React JS (2022.02 ~ 2022.04)</li>
-      </ul>
-    ),
-  },
 ];
 
 const AboutSection = () => {
@@ -262,12 +251,6 @@ const AboutSection = () => {
               active={tab === "etc"}
             >
               Etc
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
-            >
-              Education
             </TabButton>
           </div>
           <div className="mt-8">
