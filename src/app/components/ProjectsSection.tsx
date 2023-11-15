@@ -3,43 +3,11 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+import { NotionRenderer } from "react-notion";
 
 export const projectsData = [
   {
     id: 1,
-    title: "KT-Alpha",
-    description: "KT-Alpha Clone Adaptive Website",
-    image:
-      "https://user-images.githubusercontent.com/91298955/161949228-255993f9-d15b-4a64-8d14-901df8aee29e.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/kdn0325/KT-alpha",
-    previewUrl:
-      "https://continuous-headstand-70c.notion.site/KT-Alpha-772d7c83261d4ceba6324cc72d1545b7?pvs=4",
-  },
-  {
-    id: 2,
-    title: "수원시보건소",
-    description: "수원시보건소 Clone Adaptive Website",
-    image:
-      "https://user-images.githubusercontent.com/91298955/161952039-fd7d008c-88af-4b40-bb07-318c547e7f76.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/kdn0325/SuwonPublicHealth",
-    previewUrl:
-      "https://continuous-headstand-70c.notion.site/f6ac2818cf704529b8da916cb9306d1e?pvs=4",
-  },
-  {
-    id: 3,
-    title: "Starbucks",
-    description: "Starbucks Clone Responsive Website",
-    image:
-      "https://user-images.githubusercontent.com/91298955/161951698-20ada237-70d6-4d49-87f8-937343ee3547.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/kdn0325/StarbucksKR",
-    previewUrl:
-      "https://continuous-headstand-70c.notion.site/Starbucks-aae3519962234331afa9f609253518bd?pvs=4",
-  },
-  {
-    id: 4,
     title: "국내 코로나 현황",
     description: "Chart.JS를 통한 국내 코로나 현황",
     image:
@@ -50,7 +18,7 @@ export const projectsData = [
       "https://continuous-headstand-70c.notion.site/ff7ca65f79e84c9db2628f4e15059b20?pvs=4",
   },
   {
-    id: 5,
+    id: 2,
     title: "TodoList-Redux",
     description: "Redux를 사용한 Todo-List",
     image:
@@ -61,7 +29,7 @@ export const projectsData = [
       "https://continuous-headstand-70c.notion.site/Todo-List-88024151c3594615b10582f05f764166?pvs=4",
   },
   {
-    id: 6,
+    id: 3,
     title: "Watching",
     description: "Open API를 활용한 영화 정보 서비스",
     image:
@@ -72,7 +40,7 @@ export const projectsData = [
       "https://continuous-headstand-70c.notion.site/Watching-8d3be5a406994ec3be4f630850a13577?pvs=4",
   },
   {
-    id: 7,
+    id: 4,
     title: "Ecommerce",
     description: "쇼핑몰 서비스",
     image:
@@ -83,15 +51,26 @@ export const projectsData = [
       "https://continuous-headstand-70c.notion.site/Ecommerce-App-4068dba31eb541a6b54f3b51c9d1b2b8?pvs=4",
   },
   {
-    id: 8,
-    title: "ChatBot",
+    id: 5,
+    title: "ChatBot App",
     description: "Open AI를 이용한 Chatbot",
     image:
       "https://github.com/kdn0325/kdn0325.github.io/assets/91298955/77eb81a6-3717-4dc9-b14f-d4ba83480a56",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/kdn0325/chatBot",
     previewUrl:
-      "https://continuous-headstand-70c.notion.site/ChatBot-a2c3f4a1c8404f0e8d6243ebe7e85ce1?pvs=4",
+      "https://continuous-headstand-70c.notion.site/ChatBot-App-a2c3f4a1c8404f0e8d6243ebe7e85ce1?pvs=4",
+  },
+  {
+    id: 6,
+    title: "The New York Times App",
+    description: "New York Times Open API를 이용한 뉴스 앱",
+    image:
+      "https://github.com/kdn0325/nextjs-abel-frontelio/assets/91298955/779f4e3e-ac26-4050-bb09-bea410c9cb90)",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/kdn0325/nyt-news-app",
+    previewUrl:
+      "https://continuous-headstand-70c.notion.site/The-New-York-Times-App-8758785784ff4a95b7637e700ddbf1a2?pvs=4",
   },
 ];
 
