@@ -66,7 +66,7 @@ export const projectsData = [
     title: "The New York Times App",
     description: "New York Times Open API를 이용한 뉴스 앱",
     image:
-      "https://github.com/kdn0325/nextjs-abel-frontelio/assets/91298955/779f4e3e-ac26-4050-bb09-bea410c9cb90)",
+      "https://github.com/kdn0325/nextjs-abel-frontelio/assets/91298955/815dbdf1-5493-4e7a-812c-464bcc5f9b27",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/kdn0325/nyt-news-app",
     previewUrl:
