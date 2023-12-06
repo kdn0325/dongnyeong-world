@@ -1,6 +1,7 @@
+import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import { IProjectCard } from "../Interface";
+import { IProjectCard } from "../types/Interface";
 
 const ProjectCard = ({
   imgUrl,

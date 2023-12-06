@@ -1,11 +1,12 @@
 "use client";
+import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 import Image from "next/image";
-import { INavigationLinks } from "../Interface";
+import { INavigationLinks } from "../types/Interface";
 
 const navLinks: INavigationLinks[] = [
   {

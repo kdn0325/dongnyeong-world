@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import { FormEvent, useRef, useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
@@ -6,7 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
-import { IMailForm } from "../Interface";
+import { IMailForm } from "../types/Interface";
 
 const EmailSection = () => {
   const serverKey: string = process.env.NEXT_PUBLIC_MAIL_SERVER_KEY!;

@@ -1,4 +1,5 @@
-import { IProjectTag } from "../Interface";
+import React from "react";
+import { IProjectTag } from "../types/Interface";
 
 const ProjectTag = ({ name, onClick, isSelected }: IProjectTag) => {
   const buttonStyles = isSelected

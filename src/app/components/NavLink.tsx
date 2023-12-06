@@ -1,5 +1,6 @@
+import React from "react";
 import Link from "next/link";
-import { INavigationLinks } from "../Interface";
+import { INavigationLinks } from "../types/Interface";
 
 const NavLink = ({ path, title }: INavigationLinks) => {
   return (

@@ -1,5 +1,6 @@
+import React from "react";
 import NavLink from "./NavLink";
-import { INavigationLinks } from "../Interface";
+import { INavigationLinks } from "../types/Interface";
 
 const MenuOverlay = ({ navLinks }: any) => {
   return (

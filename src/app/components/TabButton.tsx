@@ -1,5 +1,6 @@
+import React from "react";
 import { motion } from "framer-motion";
-import { ITabButton } from "../Interface";
+import { ITabButton } from "../types/Interface";
 
 const variants = {
   default: { width: 0 },
