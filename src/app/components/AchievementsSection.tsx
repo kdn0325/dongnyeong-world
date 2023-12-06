@@ -2,7 +2,6 @@
 
 import dynamic from "next/dynamic";
 import { projectsData } from "./ProjectsSection";
-import { IAnimatedNumbers } from "../Interface";
 
 const AnimatedNumbers = dynamic(
   () => {
