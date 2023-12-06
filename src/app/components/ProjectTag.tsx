@@ -1,4 +1,3 @@
-import React from "react";
 import { IProjectTag } from "../Interface";
 
 const ProjectTag = ({ name, onClick, isSelected }: IProjectTag) => {
