@@ -3,7 +3,6 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
-import { NotionRenderer } from "react-notion";
 
 export const projectsData = [
   {

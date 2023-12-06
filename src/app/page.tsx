@@ -7,10 +7,6 @@ import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 import { Toaster } from "react-hot-toast";
-import "react-notion/src/styles.css";
-import "prismjs/themes/prism-tomorrow.css";
-
-import { use } from "react";
 
 export default function Home() {
   return (
